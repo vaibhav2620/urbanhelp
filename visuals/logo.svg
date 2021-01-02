@@ -1,0 +1,13 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="202" width="802" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_2" height="165" width="177" y="16.5" x="11.5" stroke-opacity="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text style="cursor: move;" font-weight="bold" stroke="#000000" transform="matrix(0.4672231526641717,0,0,0.5607523387421763,-25.755696584837764,88.98922748141774) " xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="250" id="svg_3" y="103.5" x="85.5" stroke-opacity="null" stroke-width="0" fill="#939393">UH</text>
+  <text style="cursor: move;" font-weight="bold" stroke="#000000" transform="matrix(0.3965537115726434,0,0,0.6746527927242951,776.4083489410255,-14.536603783457654) " xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="250" id="svg_4" y="267.29926" x="-1475.84431" stroke-opacity="null" stroke-width="0" fill="#000000">URBANhelp</text>
+ </g>
+</svg>

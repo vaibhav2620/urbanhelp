@@ -1,0 +1,618 @@
+html{
+    height: auto;
+    
+}
+
+body{
+    height:100%;
+    margin: 0%;
+    background-repeat: no-repeat;
+    background: linear-gradient(to top left,lightblue,black,lightblue );
+    background-repeat: no-repeat;
+
+}
+
+.navBar{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    position:fixed;  
+    z-index:1;
+    top: 0;
+    width: 100%;
+    margin: 0px;
+
+    
+}
+.header li{
+display: inline;
+padding: 5%;
+    
+
+}
+.header a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+}
+.header{
+    color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgb(0, 0, 0),rgba(0, 191, 255, 0.534) 130%);
+}
+.header img{
+    width: 70%;
+}
+button.start-login{
+    font-size: 200%;
+    border-radius: 10%;
+    border: none;
+    color:lightblue;
+    background-color: rgb(0, 0, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button.start-login:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.clean-home{
+    display: inline-block;
+    background-color: lightgray;
+    opacity: 0.9;
+    width: 100%;
+}
+
+.clean-home-text{
+    margin-top: 8%;
+    font-size: 100%;
+    color:black;
+    font-style: italic;
+    font-family:cursive;
+}
+
+
+
+.welcome{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 1%;
+    padding-bottom: 10%;
+    background-image: url('Clean-House.jpg');
+    background-repeat: no-repeat;
+    width: 50%;
+    max-width: 50%;
+    border-radius: 3%;
+    text-align: center;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    float: left;
+  
+
+}
+
+.join-us{
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-bottom: 10%;
+    background-image: url('worker_1.jpg');
+    background-repeat: no-repeat;
+    width: 40%;
+    border-radius: 3%;
+    text-align: center;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    float: left;
+
+}
+
+button.start-login{
+    margin-top: 0%;
+} 
+
+.start-login {
+   
+    font-size: 50%;
+}
+
+div.branding{
+    display: inline-block;
+}
+
+.login{
+    margin: 1%;
+    float: right;
+    font-size: 50%;
+}
+
+.footer{
+    margin-bottom: 0%;
+    color:rgb(0, 0, 0);
+    background:linear-gradient(black,lightblue);
+    padding-top:1% ;
+}
+
+
+.signupform{
+    font-family: cursive;
+margin-left: 10%;
+margin-top: 10%;
+opacity: 1;
+}
+
+.container{
+    border-radius: 3%;
+    display: inline-block;
+    width: 40%;
+    padding: 0%;
+    margin-top: 5%;
+    margin-left: 10%;
+    background: linear-gradient(lightblue,black)   ;
+    box-shadow:10px;    
+    
+
+}
+
+.container1{
+    display: inline-block;
+    width: 50%;
+    padding: 0%;
+    margin-top:0;
+    margin-left: 0;
+    background-color:darkgrey ;
+    box-shadow:10px;    
+    margin-bottom: 10%;
+
+}
+
+textarea{
+    width: 82%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.field_s input{
+    
+    width: 80%;
+}
+
+.label_s{
+    
+    width: 100%;
+
+}
+
+input[type=submit]{
+    background-color: cornsilk;
+    font-family: cursive;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 20%;
+    border-radius: 10%;
+    margin-bottom: 10%;
+
+}
+
+button.login_user {
+    background-color: cornsilk;
+    font-family: cursive;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 20%;
+    border-radius: 10%;
+    margin-bottom: 10%;
+
+}
+
+input.LOGIN, input.submit{
+    background-color: lightgray;
+    border: none;
+    font-size: 150%;
+}
+
+label{
+    font-size: 120%;
+}
+
+.services{
+
+    display: inline-block;
+    background-color:rgba(173, 216, 230, 0.698);
+    margin: 5%;
+    border-radius: 5%;
+
+}
+
+.service_item{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.service_item:hover{
+    background-color: rgba(255,255,255,0.9);
+    
+}
+
+
+.services_display img{
+    width: 30%;
+    opacity: 1;
+    
+}
+
+.service_item p{
+   color: black;
+   opacity: 1;
+}
+
+.services_display .service_item{
+    opacity: 1;
+}
+
+
+
+
+
+.displate{
+    display: flex;
+    justify-content:left;
+    margin: 5%;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 5%;
+}
+
+.displate img{
+    padding: 3%;
+    width: 20%;
+}
+
+.besides{
+font-size: small;
+margin: 10%;
+margin-left: 0;
+}
+
+.displate h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    font-size: 400%;
+}
+
+.appointment{
+    margin-left: 5%;
+    margin-top: 5%;
+    align-items: center;
+    border-radius: 5%;
+   
+}
+
+.appointment form{
+    
+    margin-left: 35%
+
+}
+
+.appointment input[type='text' ]{
+    width: 100%;
+    margin-top: 5%;
+    margin-right: 5%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.appointment button{
+    
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: #2f2f2f; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+
+}
+
+.appointment textarea{
+    margin-left: 5%;
+    border-radius: 5%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+
+
+/* dropdown menu*/
+
+.appointment select{
+ padding: 2%;
+ border-radius: 10%;
+ background-color:rgb(37, 37, 37);
+ border: 60%;
+ font-size: large;
+ color: white;
+}
+
+
+
+  /*dropdown over*/
+
+
+  .logintosetappointments{
+      margin-left: 0%;
+      align-items: left;
+
+  }
+
+  .appointment p{
+      color:white;
+  }
+
+
+
+/* table */
+
+.tablemargin{
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+
+.content-table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    font-family: sans-serif;
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+
+
+
+.content-table th,
+.content-table td {
+    font-family: sans-serif;
+  padding: 12px 15px;
+padding-left: 5%;
+padding-right: 10%;
+font-size: 130%;
+
+}
+
+.content-table tbody tr {
+    font-family: sans-serif;
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    font-family: sans-serif;
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr{
+    background-color:rgba(128, 128, 128, 0.692) ;
+}
+
+.content-table tbody tr:last-of-type {
+    font-family: sans-serif;
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-family: sans-serif;
+  font-weight: bold;
+  color: #009879;
+}
+
+.image{
+    position: relative;;
+    width: 100%;
+    max-height: 50%;
+}
+
+.image h1{
+    background-color: rgba(175, 175, 175, 0.678);
+    width: 100%;
+    text-align: center;
+    padding-top:5%;
+    padding-bottom:5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+@media screen and (max-width: 600px) {
+    .image h1{
+      font-size: 70%;
+    }
+  }
+
+.image em{
+color: rgb(25, 47, 47);
+}
+
+.bg-modal{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    position:fixed;  
+    z-index:1;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    display:none;
+
+}
+
+.modal-content{
+    background:linear-gradient(lightblue,black);
+    margin-top: 5%;
+    width: 35%;
+    height: 60%;
+    border-radius: 3%;
+    text-align: center;
+    position:relative;
+    
+
+
+}
+#file-uplode-button{
+    background-color: lightgray;
+    border-radius: 10%;
+    height:10%;
+}
+.modal-content form{
+    width: 100%;
+    height: 100%;
+}
+.modal-content input{
+width: 55%;
+height: 10%;
+display: block;
+margin-left: 20%;
+margin-top: 10%;
+background-color: rgba(0, 0, 0, 0.808);
+border-radius: 8%;
+color:white;
+font-size:larger
+
+}
+
+@media screen and (max-width: 600px) {
+    .modal-content{
+        background-color: rgb(172, 172, 172);
+        margin-top: 5%;
+        width: 70%;
+        height: 40%;
+        border-radius: 3%;
+        text-align: center;
+
+    
+    }
+        
+    .modal-content input{
+        width: 50%;
+        height: 15%;
+        background-color: black;
+        border-radius: 8%;
+        display: block;
+        margin-left: 20%;
+        margin-top: 10%;
+           
+    }
+
+    .header img{
+        width: 80%;
+        height: 100%;
+    }
+
+    .image h1{
+        top:80%;
+    }
+
+
+}
+
+.close{
+    position: absolute;
+    right:5%;
+    top: 3%;
+    font-size: 150%;
+    font-weight: bolder;
+    transform: rotate(45deg);
+    cursor: pointer;
+    
+
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #00687a00;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: none;
+    
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(173, 216, 230, 0.781);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgba(70, 166, 255, 0.541);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+      background-color: #3e858eb9;
+      border-radius: 5%;
+    }
+
+
+    .profile{
+        margin-top: 150px;
+        background:linear-gradient(90deg,lightblue 40%,black,lightblue ) ;
+    }
+    .profile ul{
+        padding: 10px;
+    }
+    .profile h1{
+        color:rgb(0,0, 0) ;
+       font-family:cursive;
+    }
